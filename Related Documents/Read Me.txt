@@ -1,0 +1,8 @@
+Title: 
+UPDATED 10/13/03 - Detect cpu make, model, features, cache, speed etc.
+
+x86 cpu's have the ability to self-report their make, model, family, features, cache details etc. The included cCPUID class allows the programmer to execute this instruction and retrieve the results. To abstract the complexities of decoding the CPUID data, the included cCpuInfo class presents the programmer with a series of read-only properties. As an example of this, the included VBCPUID application displays the information presented by the cCpuInfo class.
+
+If you are wondering why the 'Real Time Speed' display - try running the VBCPUID app on a SpeedStep cpu.
+
+If you own an unusual cpu, such as an Athlon 64/Opteron, Cyrix etc... I'd be gratefull if you'd go to the 'Actions' tab, 'Save Data...' and email the file to me.

@@ -1,0 +1,4 @@
+If you wish to try your own assembler routines, you can download the freeware masm32 assembler from this location: -
+http://www.masm32.com
+
+To prepare an op-code string for use with the cCPUID.cls - or any other that uses the same technique... Assemble and link an asm file to an executable and then use the ExtractCode utility to prepare the op-code string.
